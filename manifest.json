@@ -19,7 +19,7 @@
 	"declarativeContent"
   ],
   "options_page": "options.html",
-  "content_security_policy": "script-src 'self' https://ajax.googleapis.com/; object-src 'self'",
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com/ https://*.quizlet.com; style-src 'self' 'unsafe-hashes' ; object-src 'self'",
   "content_scripts": [
     {
 	  "matches": ["*://create.kahoot.it/creator/*", "*://*.quizlet.com/*"],
